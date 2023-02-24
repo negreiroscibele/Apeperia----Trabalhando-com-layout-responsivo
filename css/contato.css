@@ -22,8 +22,10 @@
 
 .contato__botao {
   color: var(--cinza-escuro);
-
+  border: solid 1px;
   border-color: var(--cinza-escuro);
-
+  border-radius: 5px;
   margin-top: 1rem;
+  width: 20rem;
+  padding: 1rem 0;
 }
