@@ -30,6 +30,13 @@
 
 .chamada__botao {
     width: 100%;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    width: 330px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -37,4 +44,31 @@
     .chamada__texto {
         max-width: 600px;
     }
+
+
+}
+
+@media screen and (min-width: 1024px) {
+    .chamada {
+    background-image: url(/img/bg-intro.jpg);
+    background-size: cover;
+    padding-top: 8.25rem;
+    }
+
+    .chamada__titulo {
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+    }
+
+    .chamada__botao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #FFFFFF;
+        border-radius: 5px;
+        width: 350px;
+        height: 50px;
+    }
+
+    
 }

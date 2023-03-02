@@ -45,3 +45,32 @@
   padding: 1rem 2rem;
   margin: 0 1.2rem;
 }
+
+@media screen and (min-width: 768px) {
+  .destaques__botao {
+    margin-left: 207px;
+  }
+
+  .destaques {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.destaques__botao {
+    margin-left: 337px;
+    width: 250px;
+    height: 25px;
+    text-align: center;
+}
+
+.destaques .destaques__botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 270px;
+  height: 25px;
+}
+}
