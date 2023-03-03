@@ -43,7 +43,15 @@
   border: 1px solid var(--vermelho-forte);
   border-radius: 5px;
   padding: 1rem 2rem;
-  margin: 0 1.2rem;
+}
+
+.destaques .destaques__botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 270px;
+  height: 25px;
 }
 
 @media screen and (min-width: 768px) {
@@ -59,7 +67,7 @@
 }
 
 .destaques__botao {
-    margin-left: 337px;
+    margin-left: 340px;
     width: 250px;
     height: 25px;
     text-align: center;
